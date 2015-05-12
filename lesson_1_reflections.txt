@@ -10,3 +10,20 @@ Compare Files
 
 echo 'alias notepad="/d/Program\ Files\ \(x86\)/Notepad++/notepad++.exe"' >> ~/.bashrc
 echo 'cd /d/Users/Michael' >> ~/.bashrc
+
+GIT COMMANDS (HEAD is the name of the current commit)
+git log --stat
+git status (shows file that changed since last commit)
+diff --git f1 f2
+git log    (Press q to quit)
+git diff id1 id2
+git checkout id
+git clone id
+git commit id
+git init (Creates a new git repository in current directory includes subdir)
+git add filename (repository now tracks that file and its changes)
+git rm --cached filename (unstages those changes so they aren't part of the commit)
+git reset filename (removes a file from the staging area)
+
+To see colors in git--
+git config --global color.ui auto
