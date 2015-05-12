@@ -1,0 +1,12 @@
+COMMAND LINE
+
+Compare Files
+	FC (Windows)
+	diff -u (bash)
+
+"D:/Program Files/ (x86)\Notepad++\notepad++.exe"
+
+/d/Program\ Files\ \(x86\)/Notepad++/notepad++.exe
+
+echo 'alias notepad="/d/Program\ Files\ \(x86\)/Notepad++/notepad++.exe"' >> ~/.bashrc
+echo 'cd /d/Users/Michael' >> ~/.bashrc
